@@ -18,19 +18,6 @@ Aplicação web de gerenciamento de tarefas desenvolvida com React. Permite adic
 - [Vite](https://vitejs.dev/) — ferramenta de build e desenvolvimento
 - [Bootstrap 5](https://getbootstrap.com/) — estilização e layout
 
-## 📁 Estrutura do projeto
-
-```
-src/
-├── components/
-│   ├── AdicionarTarefas.jsx   # Formulário para adicionar tarefas
-│   ├── ListaTarefas.jsx       # Renderiza a lista de tarefas
-│   └── ItemTarefa.jsx         # Cada item individual da lista
-├── App.jsx                    # Componente raiz — gerencia o estado global
-├── App.css                    # Estilos customizados
-└── main.jsx                   # Ponto de entrada da aplicação
-```
-
 ## ⚙️ Como rodar o projeto localmente
 
 ### Pré-requisitos
@@ -53,20 +40,9 @@ npm install
 npm run dev
 ```
 
-Acesse em: [http://localhost:5173](http://localhost:5173)
-
-## 💡 Conceitos praticados
-
-- Componentização no React
-- `useState` para gerenciamento de estado local e global
-- Passagem de props e callbacks entre componentes
-- Renderização condicional
-- Renderização de listas com `.map()` e `key`
-- Estilização com Bootstrap via classes utilitárias
-
 ## 👨‍💻 Autor
 
 Feito por **João** — estudante de desenvolvimento web.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-usuario)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-antonio-de-macedo-santos-a3676b310/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaoantoniosantos18)
