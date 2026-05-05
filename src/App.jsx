@@ -22,6 +22,13 @@ function App() {
     setTarefas(tarefas.filter(t => t.id !== id))
   }
 
+  function editarTarefa(id, novoTexto) {
+  if (!novoTexto.trim()) return
+  setTarefas(tarefas.map(t =>
+    t.id === id ? { ...t, texto: novoTexto } : t
+  ))
+}
+
   return (
     <div className="container py-5" style={{maxWidth: '600px'}}>
       <h1 className='text-center mb-4'>Gerenciador de Tarefas</h1>
@@ -32,6 +39,7 @@ function App() {
             tarefas={tarefas}
             onToggle={toggleTarefa}
             onRemover={removerTarefa}
+            onEditar={editarTarefa}
         />
         </div>
       </div>

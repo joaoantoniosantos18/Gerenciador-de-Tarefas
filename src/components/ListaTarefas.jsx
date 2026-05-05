@@ -1,6 +1,6 @@
 import ItemTarefa from './ItemTarefa'
 
-function ListaTarefas({ tarefas, onToggle, onRemover }) {
+function ListaTarefas({ tarefas, onToggle, onRemover, onEditar }) {
   if (tarefas.length === 0) {
     return <p className="text-center text-muted mt-4">Nenhuma tarefa ainda. Adicione uma acima!</p>
   }
@@ -13,6 +13,7 @@ function ListaTarefas({ tarefas, onToggle, onRemover }) {
           tarefa={tarefa}
           onToggle={onToggle}
           onRemover={onRemover}
+          onEditar={onEditar}
         />
       ))}
     </ul>

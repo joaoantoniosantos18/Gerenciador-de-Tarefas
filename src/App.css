@@ -47,23 +47,19 @@ h1 {
   margin-bottom: 8px;
 }
 
-/* Hover no item */
 .list-group-item:hover {
   background-color: #223a56;
 }
 
-/* Texto riscado quando tarefa concluída */
 .list-group-item span {
   cursor: pointer;
   transition: color 0.2s;
 }
 
-/* Mensagem de lista vazia */
 .text-muted {
   color: #7a9bbf !important;
 }
 
-/* Círculo vazio */
 .circulo {
   width: 22px;
   height: 22px;
@@ -74,13 +70,11 @@ h1 {
   transition: all 0.2s ease;
 }
 
-/* Círculo preenchido quando tarefa feita */
 .circulo-preenchido {
   background-color: #4a9eff;
   border-color: #4a9eff;
 }
 
-/* Fundo do item muda quando tarefa feita */
 .tarefa-feita {
   background-color: #0f2035 !important;
 }
