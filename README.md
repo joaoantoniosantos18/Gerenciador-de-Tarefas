@@ -8,7 +8,6 @@ Aplicação web de gerenciamento de tarefas desenvolvida com React. Permite adic
 - ✏️ **Editar** tarefas existentes (com suporte a Enter e Escape)
 - ☑️ **Concluir** tarefas clicando no círculo
 - 🗑️ **Remover** tarefas
-- 💾 Interface responsiva com tema dark navy
 
 ## 🚀 Tecnologias utilizadas
 
