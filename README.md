@@ -2,8 +2,6 @@
 
 Aplicação web de gerenciamento de tarefas desenvolvida com React. Permite adicionar, editar, concluir e remover tarefas de forma simples e intuitiva.
 
-![Preview do projeto](./preview.png)
-
 ## ✨ Funcionalidades
 
 - ✅ **Adicionar** tarefas
