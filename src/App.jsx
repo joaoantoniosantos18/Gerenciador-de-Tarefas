@@ -26,12 +26,16 @@ function App() {
     <div className="container py-5" style={{maxWidth: '600px'}}>
       <h1 className='text-center mb-4'>Gerenciador de Tarefas</h1>
       <AdicionarTarefa onAdicionar={adicionarTarefa} />
-      <ListaTarefas
-        tarefas={tarefas}
-        onToggle={toggleTarefa}
-        onRemover={removerTarefa}
-      />
-    </div>
+      <div className='card'>
+        <div className='card-body'>
+            <ListaTarefas
+            tarefas={tarefas}
+            onToggle={toggleTarefa}
+            onRemover={removerTarefa}
+        />
+        </div>
+      </div>
+    </div>  
   )
 }
 

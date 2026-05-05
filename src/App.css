@@ -1,0 +1,86 @@
+/* Fundo geral da página */
+body {
+  background-color: #0d1b2a;
+  min-height: 100vh;
+}
+
+/* Título */
+h1 {
+  color: #e0f0ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Input com tom mais claro do navy */
+.form-control {
+  background-color: #1b2e45;
+  border: 1px solid #2e4a6a;
+  color: #e0f0ff;
+}
+
+/* Placeholder do input */
+.form-control::placeholder {
+  color: #7a9bbf;
+}
+
+/* Input quando está focado (clicado) */
+.form-control:focus {
+  background-color: #1b2e45;
+  border-color: #4a9eff;
+  color: #e0f0ff;
+  box-shadow: 0 0 0 3px rgba(74, 158, 255, 0.2);
+}
+
+/* Card que envolve a lista */
+.card {
+  background-color: #132336;
+  border: 1px solid #2e4a6a;
+  border-radius: 12px;
+}
+
+/* Cada item da lista */
+.list-group-item {
+  background-color: #1b2e45;
+  border: none;
+  border-radius: 8px !important;
+  color: #e0f0ff;
+  margin-bottom: 8px;
+}
+
+/* Hover no item */
+.list-group-item:hover {
+  background-color: #223a56;
+}
+
+/* Texto riscado quando tarefa concluída */
+.list-group-item span {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+/* Mensagem de lista vazia */
+.text-muted {
+  color: #7a9bbf !important;
+}
+
+/* Círculo vazio */
+.circulo {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  border-radius: 50%;
+  border: 2px solid #4a9eff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Círculo preenchido quando tarefa feita */
+.circulo-preenchido {
+  background-color: #4a9eff;
+  border-color: #4a9eff;
+}
+
+/* Fundo do item muda quando tarefa feita */
+.tarefa-feita {
+  background-color: #0f2035 !important;
+}
