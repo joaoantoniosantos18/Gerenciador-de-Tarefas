@@ -1,16 +1,72 @@
-# React + Vite
+# 📝 Gerenciador de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web de gerenciamento de tarefas desenvolvida com React. Permite adicionar, editar, concluir e remover tarefas de forma simples e intuitiva.
 
-Currently, two official plugins are available:
+![Preview do projeto](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- ✅ **Adicionar** tarefas
+- ✏️ **Editar** tarefas existentes (com suporte a Enter e Escape)
+- ☑️ **Concluir** tarefas clicando no círculo
+- 🗑️ **Remover** tarefas
+- 💾 Interface responsiva com tema dark navy
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/) — biblioteca para construção de interfaces
+- [Vite](https://vitejs.dev/) — ferramenta de build e desenvolvimento
+- [Bootstrap 5](https://getbootstrap.com/) — estilização e layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estrutura do projeto
+
+```
+src/
+├── components/
+│   ├── AdicionarTarefas.jsx   # Formulário para adicionar tarefas
+│   ├── ListaTarefas.jsx       # Renderiza a lista de tarefas
+│   └── ItemTarefa.jsx         # Cada item individual da lista
+├── App.jsx                    # Componente raiz — gerencia o estado global
+├── App.css                    # Estilos customizados
+└── main.jsx                   # Ponto de entrada da aplicação
+```
+
+## ⚙️ Como rodar o projeto localmente
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) instalado na máquina
+
+### Passo a passo
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+
+# Acesse a pasta do projeto
+cd gerenciador-de-tarefas
+
+# Instale as dependências
+npm install
+
+# Rode o projeto em modo de desenvolvimento
+npm run dev
+```
+
+Acesse em: [http://localhost:5173](http://localhost:5173)
+
+## 💡 Conceitos praticados
+
+- Componentização no React
+- `useState` para gerenciamento de estado local e global
+- Passagem de props e callbacks entre componentes
+- Renderização condicional
+- Renderização de listas com `.map()` e `key`
+- Estilização com Bootstrap via classes utilitárias
+
+## 👨‍💻 Autor
+
+Feito por **João** — estudante de desenvolvimento web.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-usuario)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
