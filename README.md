@@ -39,7 +39,7 @@ npm run dev
 
 ## 👨‍💻 Autor
 
-Feito por **João** — estudante de desenvolvimento web.
+Feito por **João Antonio** — estudante de Engenharia de Software
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-antonio-de-macedo-santos-a3676b310/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaoantoniosantos18)
